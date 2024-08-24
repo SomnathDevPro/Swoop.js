@@ -1,4 +1,4 @@
-*SWOOP.JS : simplifying web development with only one library*
+#SWOOP.JS : simplifying web development with only one library*
 
 Tired of juggling with multiple libraries and utilities for your projects? Don't worry,swoop.js is here to help! A lightweight versatile javascript utility library,containing a ton of useful functions,that simplifies the process of web development,
 Swoop js has a comprehensive set of features,from common utilities to to advanced and more specific utility classes,such as:
