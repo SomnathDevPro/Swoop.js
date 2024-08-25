@@ -5,17 +5,17 @@ Swoop js has a comprehensive set of features,from common utilities to to advance
 • SWOOPHYSIX for making physics calculations and unit conversions.
 •SWOOP TEST for unit testing, helping you to write test cases for your code.
 •SWOOP CACHE to store values for use later,with TTL feature.
-*INSTALLATION*
+<h3>INSTALLATION</h3>
 you can simply include swoop.js using our CDN link: https://cdn.jsdelivr.net/gh/SomnathDevPro/Swoop.js@main/swoop.min.js
 
-*USAGE*
+<h3>USAGE</h3>
 Let's get started with swoop.js!
 include swoop.js to your source code to get started :
 <script src="https://cdn.jsdelivr.net/gh/SomnathDevPro/Swoop.js@main/swoop.min.js"></script>
 *The swoop object*
 The SWOOP object is the main object which you will be using to access the basic utilities!
 available utility functions:
-*ARR (Array Functions)*
+<h4>ARR (Array Functions)</h4>
 
 1. `union(arr1, arr2)`: Returns the union of two arrays.
 2. `intersection(arr1, arr2)`: Returns the intersection of two arrays.
@@ -32,7 +32,7 @@ available utility functions:
 13. `merge(arr1, arr2)`: Merges two arrays.
 14. `freq(arr)`: Returns the frequency of elements in an array.
 
-*DOM (Document Object Model Functions)*
+<h4>DOM (Document Object Model Functions)</h4>
 
 1. `select(selector)`: Selects an element by its selector.
 2. `selectid(id)`: Selects an element by its ID.
@@ -40,7 +40,7 @@ available utility functions:
 4. `addListener(element, event, fn)`: Attaches an event listener to an element.
 5. `removeListener(element, event, fn)`: Removes an event listener from an element.
 
-*FUNC (Functional Programming Utilities)*
+<h4>FUNC (Functional Programming Utilities)</h4>
 
 1. `throttle(func, wait)`: Throttles a function to prevent excessive calls.
 2. `debounce(func, wait)`: Debounces a function to prevent excessive calls.
@@ -48,7 +48,7 @@ available utility functions:
 4. `curry(func)`: Curries a function to enable partial application.
 5. `once(func)`: Ensures a function is called only once.
 
-*MATHS (Mathematical Functions)*
+<h4>MATHS (Mathematical Functions)</h4>
 
 1. `sin(angle)`: Returns the sine of an angle.
 2. `cos(angle)`: Returns the cosine of an angle.
@@ -67,7 +67,7 @@ available utility functions:
 15. `hypot(p, b)`: Returns the hypotenuse of a right triangle.
 16. `randnum(min, max)`: Returns a random number within a range.
 
-*STR (String Functions)*
+<h4>STR (String Functions)</h4>
 
 1. `strip(str)`: Removes whitespace from a string.
 2. `contains(str, search, position)`: Checks if a substring is present in a string.
