@@ -266,7 +266,10 @@ const SWOOP = {
     //calculates the hypotenuse when perpendicular and base is given
     hypot:(p,b)=>Math.sqrt(p*p+b*b),
     //generates a random number
-    randnum:(min,max)=>Math.floor(Math.random()*(max-min+1)+min)
+    randnum:(min,max)=>Math.floor(Math.random()*(max-min+1)+min);
+    //converts a number to percentage 
+    percentage:(n)=>{
+    return n/100;
   }
 };
 
